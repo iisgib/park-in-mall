@@ -53,7 +53,6 @@
         <a href="#floors"  style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:rgba(243,238,224,.7); text-decoration:none; transition:color .3s; white-space:nowrap;" style-hover="color:#C9A227">{{ navFloors }}</a>
         <a href="#cinema"  style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:rgba(243,238,224,.7); text-decoration:none; transition:color .3s; white-space:nowrap;" style-hover="color:#C9A227">{{ navCinema }}</a>
         <a href="#kids"    style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:rgba(243,238,224,.7); text-decoration:none; transition:color .3s; white-space:nowrap;" style-hover="color:#C9A227">{{ navKids }}</a>
-        <a href="#visit"   style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:rgba(243,238,224,.7); text-decoration:none; transition:color .3s; white-space:nowrap;" style-hover="color:#C9A227">{{ navVisit }}</a>
         <a href="#contacts" style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:500; letter-spacing:.18em; text-transform:uppercase; color:rgba(243,238,224,.7); text-decoration:none; transition:color .3s; white-space:nowrap;" style-hover="color:#C9A227">{{ navContacts }}</a>
       </div>
     </sc-if>
@@ -308,77 +307,6 @@
     </div>
   </section>
 
-  <!-- ─── GETTING HERE ──────────────────────────────────────── -->
-  <section id="visit" ref="{{ registerReveal }}" style="padding:clamp(78px,12vh,140px) clamp(20px,6vw,120px); background:#193019;">
-    <div style="max-width:1160px; margin:0 auto;">
-      <p style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:#C9A227; margin:0 0 18px;">{{ visitEyebrow }}</p>
-      <h2 style="font-family:'Cormorant Garamond',serif; font-weight:600; font-size:clamp(32px,5vw,56px); line-height:1.08; margin:0 0 52px; color:#F3EEE0;">{{ visitHeading }}</h2>
-
-      <div style="display:flex; flex-wrap:wrap; gap:clamp(28px,4vw,56px); align-items:flex-start;">
-
-        <div style="flex:1 1 320px; max-width:460px;">
-          <div style="border:1px solid rgba(201,162,39,.2); border-radius:18px; overflow:hidden; margin-bottom:24px;">
-            <svg viewBox="0 0 460 240" width="100%" height="auto" style="display:block;">
-              <defs>
-                <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-                  <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(201,162,39,.1)" stroke-width=".5"/>
-                </pattern>
-              </defs>
-              <rect width="460" height="240" fill="#16281C"/>
-              <rect width="460" height="240" fill="url(#grid)"/>
-              <rect x="120" y="60" width="220" height="120" fill="#1e3828" rx="6"/>
-              <text x="230" y="118" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="rgba(243,238,224,.9)" font-style="italic">Park in Mall</text>
-              <path d="M80 120 H120" stroke="rgba(201,162,39,.5)" stroke-width="3"/>
-              <path d="M340 120 H380" stroke="rgba(201,162,39,.5)" stroke-width="3"/>
-              <path d="M230 60 V30" stroke="rgba(201,162,39,.35)" stroke-width="2" stroke-dasharray="4,3"/>
-              <path d="M230 180 V210" stroke="rgba(201,162,39,.35)" stroke-width="2" stroke-dasharray="4,3"/>
-              <path d="M218 52 C210 52 204 58 204 66 C204 78 218 96 218 96 C218 96 232 78 232 66 C232 58 226 52 218 52 Z" fill="#C9A227"/>
-              <circle cx="218" cy="66" r="5" fill="#16281C"/>
-              <text x="238" y="62" font-family="'Manrope',sans-serif" font-size="10" fill="rgba(243,238,224,.75)" font-weight="600" letter-spacing="1">PARK IN MALL</text>
-              <text x="50" y="124" font-family="'Manrope',sans-serif" font-size="9" fill="rgba(243,238,224,.4)">{{ visitStreetW }}</text>
-              <text x="354" y="124" font-family="'Manrope',sans-serif" font-size="9" fill="rgba(243,238,224,.4)">{{ visitStreetE }}</text>
-            </svg>
-            <p style="margin:0; padding:10px 16px; font-family:ui-monospace,Menlo,monospace; font-size:11px; letter-spacing:.06em; color:rgba(243,238,224,.55); background:#112018;">{{ visitMapLabel }}</p>
-          </div>
-        </div>
-
-        <div style="flex:1 1 300px; display:flex; flex-direction:column; gap:24px;">
-          <div style="padding:24px 26px; background:#16281C; border:1px solid rgba(201,162,39,.14); border-radius:16px;">
-            <div style="display:flex; align-items:center; gap:12px; margin-bottom:14px;">
-              <svg viewBox="0 0 22 22" width="18" height="18" fill="none" stroke="#C9A227" stroke-width="1.5"><path d="M11 2 C7 2 4 5 4 9 C4 15 11 21 11 21 C11 21 18 15 18 9 C18 5 15 2 11 2 Z"/><circle cx="11" cy="9" r="3"/></svg>
-              <h4 style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:#C9A227; margin:0;">{{ visitAddrTitle }}</h4>
-            </div>
-            <p style="font-family:'Manrope',sans-serif; font-size:14px; line-height:1.7; color:rgba(243,238,224,.75); margin:0; white-space:pre-line;">{{ visitAddress }}</p>
-          </div>
-
-          <div style="padding:24px 26px; background:#16281C; border:1px solid rgba(201,162,39,.14); border-radius:16px;">
-            <div style="display:flex; align-items:center; gap:12px; margin-bottom:14px;">
-              <svg viewBox="0 0 22 22" width="18" height="18" fill="none" stroke="#C9A227" stroke-width="1.5"><circle cx="11" cy="11" r="9"/><path d="M11 6 v6 l3.5 2"/></svg>
-              <h4 style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:#C9A227; margin:0;">{{ visitHoursTitle }}</h4>
-            </div>
-            <p style="font-family:'Manrope',sans-serif; font-size:14px; line-height:1.7; color:rgba(243,238,224,.75); margin:0; white-space:pre-line;">{{ visitHours }}</p>
-          </div>
-
-          <div style="padding:24px 26px; background:#16281C; border:1px solid rgba(201,162,39,.14); border-radius:16px;">
-            <div style="display:flex; align-items:center; gap:12px; margin-bottom:14px;">
-              <svg viewBox="0 0 22 22" width="18" height="18" fill="none" stroke="#C9A227" stroke-width="1.5"><rect x="2" y="6" width="18" height="12" rx="2"/><path d="M6 6 V4 a2 2 0 0 1 4 0 v2 M12 6 V4 a2 2 0 0 1 4 0 v2"/><path d="M2 11 h18"/></svg>
-              <h4 style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:#C9A227; margin:0;">{{ visitParkTitle }}</h4>
-            </div>
-            <p style="font-family:'Manrope',sans-serif; font-size:14px; line-height:1.7; color:rgba(243,238,224,.75); margin:0; white-space:pre-line;">{{ visitParking }}</p>
-          </div>
-
-          <div style="padding:24px 26px; background:#16281C; border:1px solid rgba(201,162,39,.14); border-radius:16px;">
-            <div style="display:flex; align-items:center; gap:12px; margin-bottom:14px;">
-              <svg viewBox="0 0 22 22" width="18" height="18" fill="none" stroke="#C9A227" stroke-width="1.5"><circle cx="11" cy="11" r="9"/><path d="M11 6 v2 M11 14 v2 M6 11 h2 M14 11 h2"/></svg>
-              <h4 style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:#C9A227; margin:0;">{{ visitTransitTitle }}</h4>
-            </div>
-            <p style="font-family:'Manrope',sans-serif; font-size:14px; line-height:1.7; color:rgba(243,238,224,.75); margin:0; white-space:pre-line;">{{ visitTransit }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ─── FOOTER / CONTACTS ─────────────────────────────────── -->
   <footer id="contacts" ref="{{ registerReveal }}" style="background:#193019; border-top:1px solid rgba(201,162,39,.34); padding:clamp(60px,9vh,96px) clamp(20px,6vw,120px) 34px;">
     <div style="max-width:1160px; margin:0 auto;">
@@ -409,6 +337,16 @@
         <div style="min-width:120px;">
           <h4 style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:#C9A227; margin:0 0 18px;">{{ colHoursTitle }}</h4>
           <p style="font-family:'Manrope',sans-serif; font-size:14px; line-height:1.7; color:rgba(243,238,224,.74); margin:0; white-space:pre-line;">{{ hoursText }}</p>
+        </div>
+
+        <div style="min-width:150px;">
+          <h4 style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:#C9A227; margin:0 0 18px;">{{ colParkTitle }}</h4>
+          <p style="font-family:'Manrope',sans-serif; font-size:14px; line-height:1.7; color:rgba(243,238,224,.74); margin:0; white-space:pre-line;">{{ colParkText }}</p>
+        </div>
+
+        <div style="min-width:180px;">
+          <h4 style="font-family:'Manrope',sans-serif; font-size:11px; font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:#C9A227; margin:0 0 18px;">{{ colTransitTitle }}</h4>
+          <p style="font-family:'Manrope',sans-serif; font-size:14px; line-height:1.7; color:rgba(243,238,224,.74); margin:0; white-space:pre-line;">{{ colTransitText }}</p>
         </div>
 
         <div style="min-width:180px;">
@@ -500,7 +438,7 @@ const FLOOR_ZONE_DATA = {
 const COPY = {
   ru: {
     navAbout: "О молле", navBrands: "Бренды", navFloors: "Этажи",
-    navCinema: "Кино", navKids: "Детям", navVisit: "Маршрут", navContacts: "Контакты",
+    navCinema: "Кино", navKids: "Детям", navContacts: "Контакты",
 
     heroEyebrow: "Ташкент Сити · Шайхантаурский район",
     heroTagline: "Зелёный оазис в самом сердце города — мода, вкус и отдых под одной крышей.",
@@ -571,19 +509,10 @@ const COPY = {
     ],
     kidsPhotoLabels: ["Игровой лабиринт", "Творческая студия", "Мини-кафе", "Батутная зона"],
 
-    visitEyebrow: "Как добраться",
-    visitHeading: "Мы в центре Ташкента",
-    visitAddrTitle: "Адрес",
-    visitAddress: "Ташкент Сити,\nШайхантаурский район,\nPark in Mall",
-    visitHoursTitle: "Часы работы",
-    visitHours: "Ежедневно\n10:00 — 22:00",
-    visitParkTitle: "Паркинг",
-    visitParking: "500+ машиномест\nПервые 30 мин — бесплатно\nДалее 2 000 сум / час",
-    visitTransitTitle: "Общественный транспорт",
-    visitTransit: "Метро: Станция «Ташкент Сити» (3 мин)\nАвтобус: 14, 28, 46, 56\nТакси: Yandex Go, Uklon",
-    visitStreetW: "ул. Ислама Каримова",
-    visitStreetE: "пр. Амира Темура",
-    visitMapLabel: "Park in Mall · Ташкент Сити",
+    colParkTitle: "Паркинг",
+    colParkText: "500+ машиномест\nПервые 30 мин — бесплатно\nДалее 2 000 сум / час",
+    colTransitTitle: "Как добраться",
+    colTransitText: "Метро: ст. «Ташкент Сити» (3 мин)\nАвтобус: 14, 28, 46, 56\nТакси: Yandex Go, Uklon",
 
     footerTagline: "Зелёный оазис в центре Ташкента.",
     colLocationTitle: "Локация",
@@ -597,7 +526,7 @@ const COPY = {
 
   uz: {
     navAbout: "Moll haqida", navBrands: "Brendlar", navFloors: "Qavatlar",
-    navCinema: "Kino", navKids: "Bolalarga", navVisit: "Yo'nalish", navContacts: "Kontaktlar",
+    navCinema: "Kino", navKids: "Bolalarga", navContacts: "Kontaktlar",
 
     heroEyebrow: "Toshkent Siti · Shayxontohur tumani",
     heroTagline: "Shahar qoq markazidagi yashil voha — moda, ta'm va dam olish bir tom ostida.",
@@ -668,19 +597,10 @@ const COPY = {
     ],
     kidsPhotoLabels: ["O'yin labirinti", "Ijodiy studiya", "Mini-qahvaxona", "Trampolin zonasi"],
 
-    visitEyebrow: "Qanday borish",
-    visitHeading: "Biz Toshkent markazidamiz",
-    visitAddrTitle: "Manzil",
-    visitAddress: "Toshkent Siti,\nShayxontohur tumani,\nPark in Mall",
-    visitHoursTitle: "Ish vaqti",
-    visitHours: "Har kuni\n10:00 — 22:00",
-    visitParkTitle: "Parking",
-    visitParking: "500+ avtomobil joyi\nDastlabki 30 daqiqa — bepul\nKeyin 2 000 so'm / soat",
-    visitTransitTitle: "Jamoat transporti",
-    visitTransit: "Metro: «Toshkent Siti» bekati (3 daqiqa)\nAvtobus: 14, 28, 46, 56\nTaksi: Yandex Go, Uklon",
-    visitStreetW: "Islom Karimov ko'chasi",
-    visitStreetE: "Amir Temur shoh ko'chasi",
-    visitMapLabel: "Park in Mall · Toshkent Siti",
+    colParkTitle: "Parking",
+    colParkText: "500+ avtomobil joyi\nDastlabki 30 daqiqa — bepul\nKeyin 2 000 so'm / soat",
+    colTransitTitle: "Qanday borish",
+    colTransitText: "Metro: «Toshkent Siti» bekati (3 daqiqa)\nAvtobus: 14, 28, 46, 56\nTaksi: Yandex Go, Uklon",
 
     footerTagline: "Toshkent markazidagi yashil voha.",
     colLocationTitle: "Manzil",
@@ -1032,7 +952,7 @@ class Component extends DCLogic {
       leaves: this._leaves,
 
       navAbout: t.navAbout, navBrands: t.navBrands, navFloors: t.navFloors,
-      navCinema: t.navCinema, navKids: t.navKids, navVisit: t.navVisit, navContacts: t.navContacts,
+      navCinema: t.navCinema, navKids: t.navKids, navContacts: t.navContacts,
 
       heroEyebrow: t.heroEyebrow, heroTagline: t.heroTagline,
       heroHours: t.heroHours, heroCta: t.heroCta, scrollCue: t.scrollCue,
@@ -1063,13 +983,8 @@ class Component extends DCLogic {
       kidsEyebrow: t.kidsEyebrow, kidsHeading: t.kidsHeading,
       kidsSub: t.kidsSub, kidsBody: t.kidsBody, kidsFeatures, kidsPhotos,
 
-      visitEyebrow: t.visitEyebrow, visitHeading: t.visitHeading,
-      visitAddrTitle: t.visitAddrTitle, visitAddress: t.visitAddress,
-      visitHoursTitle: t.visitHoursTitle, visitHours: t.visitHours,
-      visitParkTitle: t.visitParkTitle, visitParking: t.visitParking,
-      visitTransitTitle: t.visitTransitTitle, visitTransit: t.visitTransit,
-      visitStreetW: t.visitStreetW, visitStreetE: t.visitStreetE,
-      visitMapLabel: t.visitMapLabel,
+      colParkTitle: t.colParkTitle, colParkText: t.colParkText,
+      colTransitTitle: t.colTransitTitle, colTransitText: t.colTransitText,
 
       footerTagline: t.footerTagline,
       colLocationTitle: t.colLocationTitle, locationText: t.locationText,
